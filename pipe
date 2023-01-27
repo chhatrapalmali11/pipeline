@@ -1,0 +1,12 @@
+pipeline{
+ agent { 
+    label 'DEV'
+ }
+  stages{
+    stage("the update"){
+    steps{
+         echo "Hello World"
+    }  
+  }
+}
+}
